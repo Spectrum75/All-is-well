@@ -9,5 +9,7 @@ Is your Raspberry pi stuck at maintainance screen, not booting or had a power cu
 
 # Important Note:
 I am new to linux and have recently learnt bash scripting, the above mentioned script are from my first attempt, so it may not be 100% correct :)
-Feel free to edit the script according to your neeeds and let me know incase of any errors.
+Feel free to edit the script according to your needs and create a pull request, incase of any errors.
+
+# Warning:
 I am not responsible for any damage that may occur to your system by using these scripts. 
