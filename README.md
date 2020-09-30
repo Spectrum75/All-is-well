@@ -15,5 +15,8 @@ Feel free to edit the script according to your needs and create a pull request, 
 Executing the scripts are pretty easy, just open a terminal session and type chmod +x (script name) and hit enter or if you prefer GUI then right click the script>properties>permissions and check "allow executing file as program". To launch from file manager double click the script and select "run in terminal"
 To launch from terminal cd to the directory where the script is saved and then type ./script-name.
 
+# Dependencies:
+1) Fsck (For running the Vastro Script)
+
 # Warning:
 I am not responsible for any damage that may occur to your system by using these scripts. 
