@@ -11,7 +11,7 @@ $$ |  $$ |$$       |$$       |      / $$   |$$    $$/       $$$/    $$$ |$$     
 $$/   $$/ $$$$$$$$/ $$$$$$$$/       $$$$$$/  $$$$$$/        $$/      $$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ '
 #SPACE
 echo -en '\n'
-echo "JUST A SMALL SCRIPT FOR UPDATING REPOSITORIES EASILY ON LINUX (ʘ‿ʘ)"
+echo "JUST A SMALL SCRIPT FOR UPDATING REPOSITORIES EASILY ON LINUX (Debian and Ubuntu) (ʘ‿ʘ)"
 #SPACE                                                                                                                                                                                                                                                                                                                   
 echo -en '\n'
 echo "What is this thing? Well, this is just a simple script that updates the repository packages of your system along with upgrading your packages and distro to the latest version. It's also gonna clean up at the end"
