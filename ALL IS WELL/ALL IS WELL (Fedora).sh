@@ -35,5 +35,5 @@ printf "\nIterate for $count times\n"
 echo "Press 'x' to exit ˙ ͜ʟ˙"
 fi
 done
-# SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)
+# SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^) 
 
