@@ -19,4 +19,4 @@ To launch from terminal cd to the directory where the script is saved and then t
 1) Fsck (For running the Vastro Script)
 
 # Warning:
-I am not responsible for any damage that may occur to your system by using these scripts. 
+I am not responsible for any damage that may occur to your system by using these scripts.
