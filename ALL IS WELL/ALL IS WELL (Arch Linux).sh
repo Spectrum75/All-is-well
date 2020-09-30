@@ -32,7 +32,7 @@ break
 else
 ((count=$count+1))
 printf "\nIterate for $count times\n"
-echo "Press 'x' to exit ˙ ͜ʟ˙"
+echo "Press 'x' to exit ˙ ͜ʟ˙" 
 fi
 done
 # SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)
