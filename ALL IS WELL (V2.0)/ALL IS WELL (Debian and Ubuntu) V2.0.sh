@@ -32,6 +32,8 @@ echo -en '\n'
 sudo apt-get update --fix-missing && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get full-upgrade -y && sudo apt-get autoremove -y
 echo -en '\n'
 #SPACE 
+#Put a hash in front of "clear" to stop clearing the output 
+clear
 echo "All is well now, press x to exit 〷◠‿◠〷"
 count=0
 while : ; do
