@@ -26,4 +26,4 @@ Solution: This happens when the disk code mentioned in the script does not match
 
 
 # Warning:
-I am not responsible for any damage that may occur to your system by using these scripts.
+I am not responsible for any damage that may occur to your system by using these scripts. 
