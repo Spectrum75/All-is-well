@@ -32,6 +32,8 @@ echo -en '\n'
 sudo yum clean all -y && sudo yum update -y && sudo yum upgrade -y && sudo yum autoremove -y
 echo -en '\n'
 #SPACE 
+#Put a hash in front of "clear" to stop clearing the output 
+clear
 echo "All is well now, press x to exit 〷◠‿◠〷"
 count=0
 while : ; do
