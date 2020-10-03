@@ -32,6 +32,8 @@ echo -en '\n'
 sudo pacman -Syy && sudo pacman -Su && pacman -Syu && pacman -Qdtq | pacman -Rs - && paccache -r && pacman -Sc && pacman -Scc
 echo -en '\n'
 #SPACE 
+#Put a hash in front of "clear" to stop clearing the output 
+clear
 echo "All is well now, press x to exit 〷◠‿◠〷"
 count=0
 while : ; do
