@@ -50,7 +50,7 @@ echo "Press 'x' to exit (ʘ‿ʘ)"
 fi
 done
 
-# About this Script:
+# About this Script: 
 # ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
 
 # SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)
