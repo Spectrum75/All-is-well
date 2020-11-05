@@ -1,5 +1,5 @@
 # Bash Scripts:
-This repository has some basic bash scripts that I created. There are two scripts in this repository:
+This repository has some basic bash scripts that I created.
 
 # All is Well (Both Versions):
 Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on Debian, Ubuntu, Arch Linux and fedora (RAW TXT file is provided for other distros)
