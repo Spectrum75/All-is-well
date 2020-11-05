@@ -33,7 +33,7 @@ echo -en '\n'
                                                        
 sudo (PACKAGE MANAGER) update --fix-missing && sudo (PACKAGE MANAGER) upgrade -y && sudo (PACKAGE MANAGER) dist-upgrade -y && sudo (PACKAGE MANAGER) autoremove -y
 echo -en '\n'
-#SPACE 
+#SPACE
 #Put a hash in front of "clear" to stop clearing the output 
 clear
 echo "All is well now, press x to exit 〷◠‿◠〷"
