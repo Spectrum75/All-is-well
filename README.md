@@ -15,3 +15,6 @@ To launch from terminal cd to the directory where the script is saved and then t
 
 # Warning:
 I am not responsible for any damage that may occur to your system by using these scripts, if you have any doubts about using them please have a look inside the code. 
+
+# Contact:
+If you need to contact me,open a pull request in Github or use discord :Spectrumgamer75#0122 
