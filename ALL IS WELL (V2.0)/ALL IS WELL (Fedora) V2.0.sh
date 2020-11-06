@@ -29,7 +29,7 @@ sleep 5
 echo "Please enter your password, if any to start ッ" 
 echo -en '\n'
 #SPACE                                                       
-sudo dnf update --fix-missing && sudo dnf upgrade -y && sudo dnf dist-upgrade -y && sudo dnf autoremove -y
+sudo dnf update --fix-missing && sudo dnf upgrade -y && sudo dnf dist-upgrade -y && sudo dnf autoremove -y && sudo dnf install -f
 echo -en '\n'
 #SPACE 
 #Put a hash in front of "clear" to stop clearing the output 
