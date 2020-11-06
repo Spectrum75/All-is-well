@@ -1,8 +1,8 @@
 # Bash Scripts:
 This repository has some basic bash scripts that I created.
 
-# All is Well (Both Versions):
-Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on Debian, Ubuntu, Arch Linux and fedora (RAW TXT file is provided for other distros)
+# All is Well Version 2.0:
+Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on Debian, Ubuntu, Arch Linux and fedora (RAW TXT file is provided for other distros). Version 1.0 had some errors and has been removed.
 
 # Important Note:
 I am new to linux and have recently learnt bash scripting, the above mentioned scripts are from my first attempt, so it may not be 100% correct :)
@@ -13,4 +13,4 @@ Executing the scripts are pretty easy, just open a terminal session and type chm
 To launch from terminal cd to the directory where the script is saved and then type ./script-name.
 
 # Warning:
-I am not responsible for any damage that may occur to your system by using these scripts. 
+I am not responsible for any damage that may occur to your system by using these scripts, if you have any doubts about using them please have a look inside the code. 
