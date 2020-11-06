@@ -12,7 +12,7 @@ echo '
                                      O═══════════════════════════════════════════════════════════════════════════════════════O  '                                       
                                             
 echo -en '\n'                                           
-echo '                                         #JUST A SMALL SCRIPT FOR EASY UPDATE/UPGRADES ON LINUX (Debian And Ubuntu)
+echo '                                         #JUST A SMALL SCRIPT FOR EASY UPDATE/UPGRADES ON LINUX (Debian and Ubuntu)'
 echo '                                                                           VERSION 2.0'                                           
                                             
                                             
@@ -42,16 +42,15 @@ if [[ $k = x ]] ; then
 printf "\nQuitting from the script\n"
 break
 else
-(count=$count+1)
+((count=$count+1))
 printf "\nWrong key pressed for $count times\n"
 echo "Press 'x' to exit (ʘ‿ʘ)"
 fi
 done
 
 # About this Script:
-# ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, also fixes broken dependencies and packages. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
+# ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
 
 # SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)
 # www.github.com/spectrumgamer75
 # Incase of any errors kindly let me know on GitHub.
-
