@@ -29,7 +29,7 @@ sleep 5
 echo "Please enter your password, if any to start ッ" 
 echo -en '\n'
 #SPACE                                                       
-sudo yum clean all -y && sudo yum update -y && sudo yum upgrade -y && sudo yum autoremove -y && sudo yum install -f
+sudo yum clean all -y && sudo yum update -y && sudo yum upgrade -y && sudo yum autoremove -y && sudo yum install -f && sudo rpm -Va
 echo -en '\n'
 #SPACE 
 #Put a hash in front of "clear" to stop clearing the output 
