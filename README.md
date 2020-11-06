@@ -5,6 +5,11 @@ This repository has some basic bash scripts that I created.
 Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on Debian, Ubuntu, Arch Linux and fedora (RAW TXT file is provided for other distros). Version 1.0 had some errors and has been removed.
 ![](https://github.com/spectrumgamer75/Bash-Scripts/blob/master/ALL%20IS%20WELL%20(V2.0)/Banner.png)
 
+
+
+
+![](https://github.com/spectrumgamer75/Bash-Scripts/blob/master/ALL%20IS%20WELL%20(V2.0)/Icon%20AIW.png)
+
 # Important Note:
 I am new to linux and have recently learnt bash scripting, the above mentioned scripts are from my first attempt, so it may not be 100% correct :)
 Feel free to edit the script according to your needs and create a pull request, incase of any errors.
