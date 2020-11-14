@@ -7,9 +7,6 @@ Tired of typing update and more upgrade-autoremove commands? Well All is Well is
 
 
 
-
-![](https://github.com/spectrumgamer75/Bash-Scripts/blob/master/ALL%20IS%20WELL%20(V2.0)/Icon%20AIW.png)
-
 # Important Note:
 I am new to linux and have recently learnt bash scripting, the above mentioned scripts are from my first attempt, so it may not be 100% correct :)
 Feel free to edit the script according to your needs and create a pull request, incase of any errors.
