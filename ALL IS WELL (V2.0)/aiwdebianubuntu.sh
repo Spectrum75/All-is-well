@@ -42,7 +42,8 @@ fi
 done
 
 # About this Script:
-# ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux. It will also fix any broken packages and dependencies. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
+# ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
+
 
 # SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)
 # www.github.com/spectrumgamer75
