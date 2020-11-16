@@ -1,16 +1,19 @@
 # THIS IS THE CHANGE LOG FOR THE SCRIPTS IN THE REPOSITORY, ANY CHANGES THAT TAKE PLACE IN THE REPO WILL BE MENTIONED HERE.
 
-# Version 2.0
+# Version 2.0:
 Changes in the look of the script
 Added more information in the script
 Fixed some bugs 
 
 All of the above mentioned changes have been made for all Linux Distros and also in the RAW TXT file
 
-# Version 1.0 Removed
+# Version 1.0 Removed:
 Version 1.0 of All Is Well script has been removed due to an upgrade to a newer version. Please use the new and improved V2.0 instead :)
 
-# Vastro Script Removed
+# Vastro Script Removed:
 The vastro script has been removed.
+
+# Changed Ascii Art For All Variants Of The "All Is Well" Script
+The ascii art in all the scripts has been changed to a smaller type as the earlier ascii art would cause some appearance issues in many terminal-emulators. 
 
  
