@@ -1,4 +1,5 @@
-# THIS IS THE CHANGE LOG FOR THE SCRIPTS IN THE REPOSITORY, ANY CHANGES THAT TAKE PLACE IN THE REPO WILL BE MENTIONED HERE.
+# THIS IS THE CHANGE LOG FOR THE SCRIPTS IN THE REPOSITORY, ANY CHANGES THAT TAKE PLACE IN THE REPOSITORY WILL BE MENTIONED HERE.
+# REPOSITORY CHANGE LOGS ARE MANAGED MANUALLY
 
 # Version 2.0:
 Changes in the look of the script
@@ -15,5 +16,9 @@ The vastro script has been removed.
 
 # Changed Ascii Art For All Variants Of The "All Is Well" Script
 The ascii art in all the scripts has been changed to a smaller type as the earlier ascii art would cause some appearance issues in many terminal-emulators. 
+
+# Changed About In All Variants Of The "All Is Well" Script:
+The about in all of the scripts has been changed to "ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!"
+
 
  
