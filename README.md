@@ -20,3 +20,5 @@ I am not responsible for any damage that may occur to your system by using these
 
 # Contact:
 If you need to contact me, open a pull request in Github or use discord :Spectrumgamer75#0122 
+
+[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
