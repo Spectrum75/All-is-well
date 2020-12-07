@@ -26,7 +26,7 @@ echo -en && sudo apt install -f && sudo dpkg --configure -a
 #SPACE 
 #Put a hash in front of "clear" to stop clearing the output 
 clear
-echo "All is well now (if everything went correctly),press x to exit ◠‿◠"
+echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
 while : ; do
 read -n 1 k <&1
@@ -42,7 +42,10 @@ done
 
 # About this Script:
 # ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
-# SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)
-# www.github.com/spectrumgamer75
-# Incase of any errors kindly let me know on GitHub.
+
+#####################################################
+# SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)               #
+# www.github.com/spectrumgamer75                    #
+# Incase of any errors kindly let me know on GitHub.#
+#####################################################
 
