@@ -27,7 +27,7 @@ echo -en && sudo apt install -f && sudo dpkg --configure -a
 #SPACE 
 #Put a hash in front of "clear" to stop clearing the output 
 clear
-echo "All is well now, press x to exit 〷◠‿◠〷"
+echo "All is well now (if everything went correctly) press x to exit 〷◠‿◠〷"
 count=0
 while : ; do
 read -n 1 k <&1
