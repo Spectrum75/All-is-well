@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # UPDATER FOR "ALL IS WELL" SCRIPT
+
 rm -r ~/AIW
 echo "UPDATE UTILITY FOR THE 'ALL IS WELL' SCRIPT"
 PS3='Choose your linux distro to update: '
