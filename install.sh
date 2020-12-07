@@ -1,5 +1,5 @@
-##!/usr/bin/env bash
-# THIS IS THE INSTALL SCRIPT FOR THE "INFONATA" SCRIPT.
+#!/usr/bin/env bash
+# THIS IS THE INSTALL SCRIPT FOR THE "ALL IS WELL" SCRIPT.
 PS3='Choose your linux distro to continue: '
 distros=("Debian/Ubuntu" "Arch Linux" "Fedora" "Cent OS" "Solus OS")
 select fav in "${distros[@]}"; do
