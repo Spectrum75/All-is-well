@@ -2,7 +2,7 @@
 This repository has some basic bash scripts that I created.
 
 # All is Well Version 2.0:
-Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on all Linux and BSD distributions(RAW TXT file is provided for other distributions). Version 1.0 had some errors and has been removed. 
+Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on most of the Linux and BSD distributions (RAW TXT file is provided for other distributions). Version 1.0 had some errors and has been removed. 
  
 ![](https://github.com/spectrumgamer75/Bash-Scripts/blob/master/ALL%20IS%20WELL%20(V2.0)/Banner.png)
 
@@ -18,7 +18,7 @@ To launch from terminal `cd` to the directory where the script is saved and then
 
 [![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
 
-# Warning:
+# Note:
 I am not responsible for any damage that may occur to your system by using these scripts, if you have any doubts about using them please have a look inside the code. 
 
 # Contact:
