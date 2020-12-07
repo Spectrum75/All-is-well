@@ -1,5 +1,5 @@
 # THIS IS THE CHANGE LOG FOR THE SCRIPTS IN THE REPOSITORY, ANY CHANGES THAT TAKE PLACE IN THE REPOSITORY WILL BE MENTIONED HERE.
-# REPOSITORY CHANGE LOGS ARE MANAGED MANUALLY
+# REPOSITORY CHANGE LOGS ARE MANAGED MANUALLY, FOR MORE INFORMATION ON THE CHANGES PLEASE CHECK THE COMMITS TOO.
 
 # Version 2.0:
 Changes in the look of the script
@@ -20,5 +20,15 @@ The ascii art in all the scripts has been changed to a smaller type as the earli
 # Changed About In All Variants Of The "All Is Well" Script:
 The about in all of the scripts has been changed to "ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!"
 
+# Fixed Errors:
+Fixed "ERROR" that appeared in red if the clear option was disabled in "sudo dpkg --configure -a 'n'/" 
+
+# Changed The About Script Comment:
+The about script comment in all the scripts has been changed to:
+######################################################
+# SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)                #
+# www.github.com/spectrumgamer75                     #
+# Incase of any errors kindly let me know on GitHub. #
+######################################################
 
  
