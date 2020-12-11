@@ -8,7 +8,7 @@ Tired of typing update and more upgrade-autoremove commands? Well All is Well is
 
 
 # Important Note:
-I am new to Linux,BSD and have recently learnt bash scripting, the above mentioned scripts are from my first attempt, so it may not be 100% correct :)
+I am new to bash scripting and I'm not an expert in this so it may not be 100% correct :)
 Feel free to edit the script according to your needs. Please note that the processes that the script needs to do takes some time (from a few minutes to an hour) depending on your internet connection and packages/repositories. Do not interrupt the script once it is running as this may break your packages. 
 
 # How to Execute/Run?
@@ -35,4 +35,5 @@ If you need to contact me for any suggestions,issues or anything else related to
 
 # Contributions:
 Feel free to contribute, let me know for any errors etc.
+
 
