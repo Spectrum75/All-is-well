@@ -10,6 +10,8 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwdebianubuntu.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
+            chmod +x 'uninstall.sh'
             chmod +x 'aiwdebianubuntu.sh'
             echo "[Desktop Entry]
             Name=All Is Well
@@ -21,6 +23,8 @@ select fav in "${distros[@]}"; do
             StartupNotify=true
             Type=Application
             Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
+            clear
+            echo "Installation Complete :)"
             break
             ;;
         "Arch Linux")
@@ -40,6 +44,8 @@ select fav in "${distros[@]}"; do
             StartupNotify=true
             Type=Application
             Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
+            clear
+            echo "Installation Complete :)"
             break
             ;;
         "Fedora")
@@ -59,6 +65,8 @@ select fav in "${distros[@]}"; do
             StartupNotify=true
             Type=Application
             Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
+            clear
+            echo "Installation Complete :)"
             break
             ;;
         "Cent OS")
@@ -78,6 +86,8 @@ select fav in "${distros[@]}"; do
             StartupNotify=true
             Type=Application
             Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
+            clear
+            echo "Installation Complete :)"
             break
             ;;
         "Solus OS")
@@ -97,6 +107,8 @@ select fav in "${distros[@]}"; do
             StartupNotify=true
             Type=Application
             Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
+            clear
+            echo "Installation Complete :)"
             break
             ;;
         "BSD")
@@ -116,6 +128,8 @@ select fav in "${distros[@]}"; do
             StartupNotify=true
             Type=Application
             Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
+            clear
+            echo "Installation Complete :)"
             break
 
 
