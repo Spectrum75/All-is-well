@@ -12,23 +12,19 @@ I am new to bash scripting and I'm not an expert in this so it may not be 100% c
 Feel free to edit the script according to your needs. Please note that the processes that the script needs to do takes some time (from a few minutes to an hour) depending on your internet connection and packages/repositories. Do not interrupt the script once it is running as this may break your packages. 
 
 # Installation:
-There are three commands to get the script up and running:
-`wget https://github.com/spectrumgamer75/Bash-Scripts/releases/download/%23Install/install.sh`
-`chmod +x install.sh`
-`./install.sh`
+Run the below command in a terminal to get the script up and running:
+`wget https://github.com/spectrumgamer75/Bash-Scripts/releases/download/%23Install/install.sh && chmod +x install.sh && ./install.sh`
 
 You can also download the `install.sh` from the releases tab,give it executable permission (`chmod +x`) and execute it via `./install.sh`. Follow the onscreen instructions to complete the installation.
 
 Raspberry Pi users can get the script, with everything already setup from pi-apps.
+[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
 
 
 # Dependencies:
 Wget
 Respective Package Manager (Apt, Yum Etc)
 
-
-
-[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
 
 # Note:
 I am not responsible for any damage that may occur to your system by using these scripts, if you have any doubts about using them please have a look inside the code.
