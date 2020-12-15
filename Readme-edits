@@ -23,6 +23,9 @@ The about in all of the scripts has been changed to "ALL IS WELL is a bash scrip
 # Fixed Errors:
 Fixed "ERROR" that appeared in red if the clear option was disabled in "sudo dpkg --configure -a 'n'/" 
 
+# Edited Readme File:
+Readme File has been updated to include better installation instructions and more.
+
 # Changed The About Script Comment:
 The about script comment in all the scripts has been changed to:
 ######################################################
