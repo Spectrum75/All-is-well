@@ -11,14 +11,21 @@ Tired of typing update and more upgrade-autoremove commands? Well All is Well is
 I am new to bash scripting and I'm not an expert in this so it may not be 100% correct :)
 Feel free to edit the script according to your needs. Please note that the processes that the script needs to do takes some time (from a few minutes to an hour) depending on your internet connection and packages/repositories. Do not interrupt the script once it is running as this may break your packages. 
 
-# How to Execute/Run?
-## Automatic Way (Recommended):
-Download the `install.sh` script give it executable permission (`chmod +x`) and execute it via `./install.sh`. Follow the onscreen instructions to complete the installation.
+# Installation:
+There are three commands to get the script up and running:
+`wget https://github.com/spectrumgamer75/Bash-Scripts/releases/download/%23Install/install.sh`
+`chmod +x install.sh`
+`./install.sh`
+
+You can also download the `install.sh` from the releases tab,give it executable permission (`chmod +x`) and execute it via `./install.sh`. Follow the onscreen instructions to complete the installation.
+
+Raspberry Pi users can get the script, with everything already setup from pi-apps.
 
 
-## Manual Way:
-To install the script manually, just open a terminal session and type `chmod +x (script name)` and hit enter or if you prefer GUI (may vary) then right click the script`>properties>permissions` and check `"allow executing file as program"`. To launch from file manager (may vary) double click the script and select "run in terminal"
-To launch from terminal `cd` to the directory where the script is saved and then type `./script-name`. Raspberry Pi users can get the script, with everything already setup from pi-apps.
+# Dependencies:
+Wget
+Respective Package Manager (Apt, Yum Etc)
+
 
 
 [![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
