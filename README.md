@@ -18,7 +18,7 @@ Download the `install.sh` script give it executable permission (`chmod +x`) and 
 
 ## Manual Way:
 To install the script manually, just open a terminal session and type `chmod +x (script name)` and hit enter or if you prefer GUI (may vary) then right click the script`>properties>permissions` and check `"allow executing file as program"`. To launch from file manager (may vary) double click the script and select "run in terminal"
-To launch from terminal `cd` to the directory where the script is saved and then type `./script-name`. Raspberry Pi users can get the script, with everything already setup from pi-apps. Also create a `.desktop` file, if you want for easier access (when installing manually).
+To launch from terminal `cd` to the directory where the script is saved and then type `./script-name`. Raspberry Pi users can get the script, with everything already setup from pi-apps.
 
 
 [![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
