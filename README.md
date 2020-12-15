@@ -18,7 +18,7 @@ Feel free to edit the script according to your needs. Please note that the proce
 # Installation:
 Run the below command in a terminal to get the script up and running:
 
-`wget https://github.com/spectrumgamer75/Bash-Scripts/releases/download/%23Install/install.sh && chmod +x install.sh && ./install.sh`
+`wget https://github.com/spectrumgamer75/Bash-Scripts/releases/download/%23Install/install.sh && chmod +x install.sh && clear && ./install.sh`
 
 
 You can also download the `install.sh` from the releases tab,give it executable permission (`chmod +x`) and execute it via `./install.sh`. Follow the onscreen instructions to complete the installation.
