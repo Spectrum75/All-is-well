@@ -31,6 +31,8 @@ Raspberry Pi users can get the script, with everything already setup from pi-app
 
 # Dependencies:
 Wget
+
+
 Respective Package Manager (Apt, Yum Etc)
 
 
