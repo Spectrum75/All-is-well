@@ -43,8 +43,9 @@ I am not responsible for any damage that may occur to your system by using these
 Thanks to GraphicLoads @https://www.iconarchive.com/show/100-flat-2-icons-by-graphicloads/arrow-download-icon.html for the icons. 
 Also I express my gratitude to Botspot and to RPICoder for helping me. RPICoder:https://github.com/techcoder20 Botspot:https://github.com/Botspot.
 
-# Contact:
-If you need to contact me for any suggestions,issues or anything else related to the scripts open a pull request or a new issue.
+# Help And More:
+For any help/issues related to the scripts open a new issue. For any ideas/features, let me know in the discussions.
+
 
 # Contributions:
 Feel free to contribute, let me know for any errors etc.
