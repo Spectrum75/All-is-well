@@ -10,9 +10,10 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwdebianubuntu.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            chmod +x 'uninstall.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh
             chmod +x 'aiwdebianubuntu.sh'
+	    chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -33,7 +34,10 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwarchlinux.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
             chmod +x 'aiwarchlinux.sh'
+	    chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -54,7 +58,10 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwfedora.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
             chmod +x 'aiwfedora.sh'
+	    chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -75,7 +82,10 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwcentos.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
             chmod +x 'aiwcentos.sh'
+	    chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -96,7 +106,10 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwsolus.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
             chmod +x 'aiwsolus.sh'
+	    chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -117,7 +130,10 @@ select fav in "${distros[@]}"; do
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwbsd.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
             chmod +x 'aiwbsd.sh'
+	    chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
