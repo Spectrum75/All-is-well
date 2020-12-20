@@ -40,7 +40,8 @@ Respective Package Manager (Apt, Yum Etc)
 I am not responsible for any damage that may occur to your system by using these scripts, if you have any doubts about using them please have a look inside the code.
 
 # Credits:
-Thanks to GraphicLoads @https://www.iconarchive.com/show/100-flat-2-icons-by-graphicloads/arrow-download-icon.html for the icons. 
+Thanks to GraphicLoads @https://www.iconarchive.com/show/100-flat-2-icons-by-graphicloads/arrow-download-icon.html for the icons.
+The Ascii art was made with the Ascii art generator at http://www.patorjk.com/software/taag/
 Also I express my gratitude to Botspot and to RPICoder for helping me. RPICoder:https://github.com/techcoder20 Botspot:https://github.com/Botspot.
 
 # Help And More:
