@@ -44,10 +44,10 @@ Thanks to GraphicLoads @https://www.iconarchive.com/show/100-flat-2-icons-by-gra
 Also I express my gratitude to Botspot and to RPICoder for helping me. RPICoder:https://github.com/techcoder20 Botspot:https://github.com/Botspot.
 
 # Help And More:
-For any help/issues related to the scripts open a new issue. For any ideas/features, let me know in the discussions.
+For any help/issues or ideas/feature requests let me know in issues
 
 
 # Contributions:
-Feel free to contribute, let me know for any errors etc.
+Feel free to contribute to the project, they are always welcome :)
 
 
