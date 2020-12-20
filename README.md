@@ -1,5 +1,5 @@
-# Bash Scripts:
-This repository has some basic bash scripts that I created.
+# All Is Well:
+This repository has the different variants of the script and the install script etc.
 
 # All is Well Version 2.0:
 Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on most of the Linux and BSD distributions (RAW TXT file is provided for other distributions). Version 1.0 had some errors and has been removed. 
@@ -49,5 +49,9 @@ For any help/issues or ideas/feature requests let me know in issues
 
 # Contributions:
 Feel free to contribute to the project, they are always welcome :)
+
+# Future Plans:
+- [ ] Make the update script better.
+- [ ] Add more support for RAW custom users
 
 
