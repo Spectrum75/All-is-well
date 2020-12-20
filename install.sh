@@ -12,8 +12,10 @@ select fav in "${distros[@]}"; do
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwdebianubuntu.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/update.sh'
             chmod +x 'uninstall.sh'
             chmod +x 'aiwdebianubuntu.sh'
+	    chmod +x 'update.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -36,8 +38,10 @@ select fav in "${distros[@]}"; do
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwarchlinux.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/update.sh'
             chmod +x 'aiwarchlinux.sh'
             chmod +x 'uninstall.sh'
+	    chmod +x 'update.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -60,8 +64,11 @@ select fav in "${distros[@]}"; do
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwfedora.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/update.sh'
             chmod +x 'aiwfedora.sh'
             chmod +x 'uninstall.sh'
+	    chmod +x 'update.sh'
+	    
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -84,8 +91,10 @@ select fav in "${distros[@]}"; do
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwcentos.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/update.sh'
             chmod +x 'aiwcentos.sh'
             chmod +x 'uninstall.sh'
+	    chmod +x 'update.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -108,8 +117,10 @@ select fav in "${distros[@]}"; do
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwsolus.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/update.sh'
             chmod +x 'aiwsolus.sh'
             chmod +x 'uninstall.sh'
+	    chmod +x 'update.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
@@ -132,8 +143,10 @@ select fav in "${distros[@]}"; do
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwbsd.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
             wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
+	    wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/update.sh'
             chmod +x 'aiwbsd.sh'
             chmod +x 'uninstall.sh'
+	    chmod +x 'update.sh'
             echo "[Desktop Entry]
             Name=All Is Well
             GenericName=Update Helper and Fixer
