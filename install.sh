@@ -8,10 +8,10 @@ select fav in "${distros[@]}"; do
             echo "Downloading All Is Well Script For Debian/Ubuntu"
             mkdir ~/AIW
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwdebianubuntu.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwdebianubuntu.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
             chmod +x 'uninstall.sh'
             chmod +x 'aiwdebianubuntu.sh'
             echo "[Desktop Entry]
@@ -32,10 +32,10 @@ select fav in "${distros[@]}"; do
             echo "Downloading All Is Well Script For Arch Linux"
             mkdir ~/AIW
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwarchlinux.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwarchlinux.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
             chmod +x 'aiwarchlinux.sh'
             chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
@@ -56,10 +56,10 @@ select fav in "${distros[@]}"; do
             echo "Downloading All Is Well Script For Fedora"
             mkdir ~/AIW
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwfedora.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwfedora.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
             chmod +x 'aiwfedora.sh'
             chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
@@ -80,10 +80,10 @@ select fav in "${distros[@]}"; do
             echo "Downloading All Is Well Script For Cent OS"
             mkdir ~/AIW
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwcentos.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwcentos.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
             chmod +x 'aiwcentos.sh'
             chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
@@ -104,10 +104,10 @@ select fav in "${distros[@]}"; do
             echo "Downloading All Is Well Script For Solus OS"
             mkdir ~/AIW
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwsolus.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwsolus.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
             chmod +x 'aiwsolus.sh'
             chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
@@ -128,10 +128,10 @@ select fav in "${distros[@]}"; do
             echo "Downloading All Is Well Script For BSD"
             mkdir ~/AIW
             cd ~/AIW || error "Failed to enter directory 'AIW'!"
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/ALL%20IS%20WELL%20(V2.0)/aiwbsd.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/uninstall.sh'
-            wget 'https://raw.githubusercontent.com/spectrumgamer75/Bash-Scripts/master/LICENSE'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/icon-64.png'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/ALL%20IS%20WELL%20(V2.0)/aiwbsd.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/uninstall.sh'
+            wget 'https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/LICENSE'
             chmod +x 'aiwbsd.sh'
             chmod +x 'uninstall.sh'
             echo "[Desktop Entry]
