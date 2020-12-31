@@ -22,7 +22,8 @@ case $number in
         chmod +x 'uninstall.sh'
         chmod +x 'aiwdebianubuntu.sh'
         chmod +x 'update.sh'
-        echo "alias aiw=/$HOME/AIW/aiwdebianubuntu.sh" >> .bashrc
+        echo "alias aiw=/$HOME/AIW/aiwdebianubuntu.sh" >> ~/.bashrc
+        source ~/.bashrc
         echo "[Desktop Entry]
         Name=All Is Well
         GenericName=Update Helper and Fixer
@@ -49,7 +50,8 @@ case $number in
         chmod +x 'aiwarchlinux.sh'
         chmod +x 'uninstall.sh'
         chmod +x 'update.sh'
-        echo "alias aiw=/$HOME/AIW/aiwarchlinux.sh" >> .bashrc
+        echo "alias aiw=/$HOME/AIW/aiwarchlinux.sh" >> ~/.bashrc
+        source ~/.bashrc
         echo "[Desktop Entry]
         Name=All Is Well
         GenericName=Update Helper and Fixer
@@ -76,7 +78,8 @@ case $number in
         chmod +x 'aiwfedora.sh'
         chmod +x 'uninstall.sh'
         chmod +x 'update.sh'
-        echo "alias aiw=/$HOME/AIW/aiwfedora.sh" >> .bashrc
+        echo "alias aiw=/$HOME/AIW/aiwfedora.sh" >> ~/.bashrc
+        source ~/.bashrc
         echo "[Desktop Entry]
         Name=All Is Well
         GenericName=Update Helper and Fixer
@@ -103,7 +106,8 @@ case $number in
         chmod +x 'aiwcentos.sh'
         chmod +x 'uninstall.sh'
         chmod +x 'update.sh'
-        echo "alias aiw=/$HOME/AIW/aiwcentos.sh" >> .bashrc
+        echo "alias aiw=/$HOME/AIW/aiwcentos.sh" >> ~/.bashrc
+        source ~/.bashrc
         echo "[Desktop Entry]
         Name=All Is Well
         GenericName=Update Helper and Fixer
@@ -129,7 +133,8 @@ case $number in
         chmod +x 'aiwsolus.sh'
         chmod +x 'uninstall.sh'
         chmod +x 'update.sh'
-        echo "alias aiw=/$HOME/AIW/aiwsolus.sh" >> .bashrc
+        echo "alias aiw=/$HOME/AIW/aiwsolus.sh" >> ~/.bashrc
+        source ~/.bashrc
         echo "[Desktop Entry]
         Name=All Is Well
         GenericName=Update Helper and Fixer
@@ -156,7 +161,8 @@ case $number in
         chmod +x 'aiwbsd.sh'
         chmod +x 'uninstall.sh'
         chmod +x 'update.sh'
-        echo "alias aiw=/$HOME/AIW/aiwbsd.sh" >> .bashrc
+        echo "alias aiw=/$HOME/AIW/aiwbsd.sh" >> ~/.bashrc
+        source ~/.bashrc
         echo "[Desktop Entry]
         Name=All Is Well
         GenericName=Update Helper and Fixer
