@@ -36,7 +36,6 @@ case $number in
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
         clear
         echo "Installation Complete :)"
-        break
         ;;
     2)
         echo "Downloading All Is Well Script For Arch Linux"
@@ -64,7 +63,6 @@ case $number in
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
         clear
         echo "Installation Complete :)"
-        break
         ;;
     3)
         echo "Downloading All Is Well Script For Fedora"
@@ -92,7 +90,6 @@ case $number in
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
         clear
         echo "Installation Complete :)"
-        break
         ;;
     4)
         echo "Downloading All Is Well Script For Cent OS"
@@ -147,7 +144,6 @@ case $number in
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
         clear
         echo "Installation Complete :)"
-        break
         ;;
     6)
         echo "Downloading All Is Well Script For BSD"
@@ -175,7 +171,6 @@ case $number in
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
         clear
         echo "Installation Complete :)"
-        break
         ;;
     7)
         echo "Installation Cancelled"
@@ -184,3 +179,9 @@ case $number in
 
     *) echo "invalid option '$number'";;
 esac
+
+######################################################
+# SCRIPT AUTHOR: SPECTRUMGAMER75 (^̮^)                #
+# www.github.com/spectrumgamer75                     #
+# Incase of any errors kindly let me know on GitHub. #
+######################################################
