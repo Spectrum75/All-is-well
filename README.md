@@ -20,7 +20,7 @@ Run the below command in a terminal to get the script up and running:
 
 `wget https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/install.sh && chmod +x install.sh && clear && ./install.sh`
 
-You can either run the script from the menu shortcut, or directly from the terminal by using the `aiw` command.
+You can either run the script from the menu shortcut, or directly from the terminal by using the `aiw` command. By default all output is cleared, to stop this edit the script (more info inside)
 
 Raspberry Pi users can get the script, with everything already setup from pi-apps.
 
