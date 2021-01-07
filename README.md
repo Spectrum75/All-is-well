@@ -48,7 +48,7 @@ For any help/issues or ideas/feature requests let me know in issues
 
 
 # Contributions:
-Feel free to contribute to the project, they are always welcome :)
+Feel free to contribute to the project by opening a pull request, they are always welcome :)
 
 # Future Plans:
 - [ ] Make the update script better.
