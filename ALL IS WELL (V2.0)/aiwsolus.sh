@@ -12,15 +12,30 @@ echo -en '\n'
 echo 'JUST A SMALL SCRIPT FOR EASY UPDATE/UPGRADES ON LINUX (Solus OS)
 VERSION 2.0'                                           
 
-                                                                             
 #SPACE
 echo -en '\n'
-#SPACE                                                                                                                                                                                                                                                                                                                   
+#SPACE
 echo -en '\n'
-sleep 5
-echo "Please enter your password, if any to start ッ" 
+
+function error {
+  echo -e "\\e[91m$1\\e[39m"
+  exit 1
+}
+
+echo "Checking for updates..."
+cd $HOME/All-is-well
+localhash="$(git rev-parse HEAD)"
+latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD | awk '{print $1}')"
+if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
+echo "Out of date, updating now..."
+git pull https://github.com/spectrumgamer75/All-is-well HEAD || error 'Unable to update, please check your internet connect'
+else
+  echo "Up to date."
+fi
+
+echo "Please enter your password, if any to start ッ"
 echo -en '\n'
-#SPACE                                                       
+#SPACE                                             
 sudo eopkg up && sudo eopkg check | grep Broken | awk '{print $4}' | xargs sudo eopkg it --reinstall && sudo eopkg upgrade && sudo eopkg ur && eopkg check
 #SPACE 
 #Put a hash in front of "clear" to stop clearing the output 
