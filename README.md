@@ -5,12 +5,8 @@ This repository has the different variants of the script and the install script 
 Tired of typing update and more upgrade-autoremove commands? Well All is Well is here it will completely update the repository cache, upgrade all the packages and clean up at the end too. Works on most of the Linux and BSD distributions (RAW TXT file is provided for other distributions). Version 1.0 had some errors and has been removed. 
 
 
+![](https://github.com/spectrumgamer75/All-is-well/blob/master/aiw/banner.png)
 
-
- 
-![](https://github.com/spectrumgamer75/Bash-Scripts/blob/master/ALL%20IS%20WELL%20(V2.0)/Banner.png)
-
-# REPOSITORY STATUS: MAINTAINENCE
 
 # Important Note:
 I am new to bash scripting and I'm not an expert in this so it may not be 100% correct :)
@@ -52,7 +48,7 @@ For any help/issues or ideas/feature requests let me know in issues
 Feel free to contribute to the project by opening a pull request, they are always welcome :)
 
 # Future Plans:
-- [ ] Make the update script better.
-- [ ] Add more support for RAW custom users
+- [X] Make the update script better.
+- [ ] Add more support for RAW users
 
 
