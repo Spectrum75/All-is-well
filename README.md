@@ -10,6 +10,7 @@ Tired of typing update and more upgrade-autoremove commands? Well All is Well is
  
 ![](https://github.com/spectrumgamer75/Bash-Scripts/blob/master/ALL%20IS%20WELL%20(V2.0)/Banner.png)
 
+# REPOSITORY STATUS: MAINTAINENCE
 
 # Important Note:
 I am new to bash scripting and I'm not an expert in this so it may not be 100% correct :)
