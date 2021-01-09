@@ -6,8 +6,9 @@ case $input in
     [yY][eE][sS]|[yY])
  echo "Yes"
  echo "Uninstall Complete."
- rm -r ~/AIW
+ sudo rm -r ~/All-is-well
  rm -r ~/.local/share/applications/aiw.desktop
+ sed -i '/alias aiw=.*All-is-well.*/d' ~/.bashrc
  ;;
     [nN][oO]|[nN])
  echo "No"
