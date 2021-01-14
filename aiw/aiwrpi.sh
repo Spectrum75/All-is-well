@@ -8,38 +8,37 @@ echo '
         \/                      \/          \/       \/            '
 
 echo -en '\n'
-echo '#JUST A SMALL SCRIPT FOR EASY UPDATE/UPGRADES ON LINUX (Raspberry Pi OS)'
-echo 'VERSION 2.0'
-
-#SPACE
+echo -e "Just A Small Script For Updating/Upgrading And Fixing Packages On Linux \e[7m(Raspberry Pi OS)\e[27m"
+echo 'Version 2.0'
 echo -en '\n'
-#SPACE
 echo -en '\n'
 
 function error {
   echo -e "\\e[91m$1\\e[39m"
   exit 1
 }
-
-echo "Checking for updates..."
+#Update Check.
+echo -e "\e[31mChecking for updates...\e[0m"
 cd $HOME/All-is-well
 localhash="$(git rev-parse HEAD)"
 latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD | awk '{print $1}')"
 if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
 echo "Out of date, updating now..."
-git pull https://github.com/spectrumgamer75/All-is-well HEAD || error 'Unable to update, please check your internet connect'
+git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
 else
-  echo "Up to date."
+  echo -e "\e[32mUp to date! \e[0m"
 fi
 
 echo "Please enter your password, if any to start ッ"
 echo -en '\n'
-#SPACE
-sudo apt update --fix-missing && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y
+# Main:
+sudo apt update --fix-missing || error '\e[31mUnable to update, please check your internet connection...\e[0m' && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y
 echo -en && sudo apt install -f && sudo dpkg --configure -a
-#SPACE
-#Put a hash in front of "clear" to stop clearing the output
-clear
+#Comment 'clear' below to stop clearing the output.
+#clear
+echo -en '\n'
+echo -en '\n'
+echo -en '\n'
 echo "All is well now (if everything went correctly) press x to exit 〷◠‿◠〷"
 count=0
 while : ; do
