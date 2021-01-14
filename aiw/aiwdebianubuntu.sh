@@ -10,16 +10,14 @@ echo '
 echo -en '\n'
 echo -e "Just A Small Script For Updating/Upgrading And Fixing Packages On Linux \e[7m(Debian/Ubuntu)\e[27m"
 echo 'Version 2.0'
-#SPACE
 echo -en '\n'
-#SPACE
 echo -en '\n'
 
 function error {
   echo -e "\\e[91m$1\\e[39m"
   exit 1
 }
-#Update Check.
+#Update Check:
 echo -e "\e[31mChecking for updates...\e[0m"
 cd $HOME/All-is-well
 localhash="$(git rev-parse HEAD)"
@@ -30,13 +28,11 @@ git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUna
 else
   echo -e "\e[32mUp to date! \e[0m"
 fi
-
+#Main:
 echo "Please enter your password, if any to start ッ"
 echo -en '\n'
-#SPACE
 sudo apt update --fix-missing || error '\e[31mUnable to update, please check your internet connection...\e[0m' && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y
 echo -en && sudo apt install -f && sudo dpkg --configure -a
-#SPACE
 #Comment 'clear' below to stop clearing the output.
 #clear
 echo -en '\n'
