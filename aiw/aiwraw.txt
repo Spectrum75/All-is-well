@@ -7,28 +7,20 @@ echo '
 \____|__  /____/____/  |___/____ >     \__/\  /  \___  >____/____/
         \/                      \/          \/       \/            '                           
                                             
-echo -en '\n'                                           
-echo '#JUST A SMALL SCRIPT FOR EASY UPDATE/UPGRADES ON LINUX (Your Distribution Here)'
-echo 'VERSION 2.0'      
-                                            
-                                                                       
-                                                                                                                                  
+echo -en '\n'
+echo -e "Just A Small Script For Updating/Upgrading And Fixing Packages On (Generic OS Name) \e[7m(OS Specific Name)\e[27m"
+echo 'Version 2.0'
+echo -en '\n'
+echo -en '\n'
 
-                                                                             
-#SPACE
+function error {
+  echo -e "\\e[91m$1\\e[39m"
+  exit 1
+}
+echo "Please enter your password, if any to start ッ"
 echo -en '\n'
-#SPACE                                                                                                                                                                                                                                                                                                                   
-echo -en '\n'
-sleep 5
-echo "Please enter your password, if any to start ッ" 
-echo -en '\n'
-#SPACE                                                       
-#PLEASE FILL THE (PACKAGE MANAGER) FIELD WITH WHATEVER PACKAGE MANAGER YOU ARE CURRENTLY USING AND ALSO CHANGE THE OTHER UPDATE/UPGRADE COMMANDS, IF NECESSARY. DON'T FORGET TO CONVERT THE .TXT EXTENSION TO .SH AT THE END OF FILE NAME AND GIVE THE SCRIPT EXECUTABLE PERMISSION :).
-                                                       
-sudo (PACKAGE MANAGER) update --fix-missing && sudo (PACKAGE MANAGER) upgrade -y && sudo (PACKAGE MANAGER) dist-upgrade -y && sudo (PACKAGE MANAGER) autoremove -y
-echo -en && sudo (PACKAGE MANAGER) install -f && sudo (PACKAGE MANAGER) --configure -a''\n'
-#SPACE
-#Put a hash in front of "clear" to stop clearing the output 
+# Insert your package manager commands here, don't forget to convert .txt to .sh when done :)                                                       
+#Comment 'clear' below to stop clearing the output.
 clear
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
