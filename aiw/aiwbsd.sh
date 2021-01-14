@@ -7,37 +7,32 @@ echo '
 \____|__  /____/____/  |___/____ >     \__/\  /  \___  >____/____/
         \/                      \/          \/       \/            '                           
                                             
-echo -en '\n'                                           
-echo '#JUST A SMALL SCRIPT FOR EASY UPDATE/UPGRADES ON BSD (All Berkeley Software Distributions)'
-echo 'VERSION 2.0'                                           
-                                            
-#SPACE
 echo -en '\n'
-#SPACE
+echo -e "Just A Small Script For Updating/Upgrading And Fixing Packages On BSD \e[7m(All Berkeley Software Distributions)\e[27m"
+echo 'Version 2.0'
+echo -en '\n'
 echo -en '\n'
 
 function error {
   echo -e "\\e[91m$1\\e[39m"
   exit 1
 }
-
-echo "Checking for updates..."
+#Update Check:
+echo -e "\e[31mChecking for updates...\e[0m"
 cd $HOME/All-is-well
 localhash="$(git rev-parse HEAD)"
 latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD | awk '{print $1}')"
 if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
 echo "Out of date, updating now..."
-git pull https://github.com/spectrumgamer75/All-is-well HEAD || error 'Unable to update, please check your internet connect'
+git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
 else
-  echo "Up to date."
+  echo -e "\e[32mUp to date! \e[0m"
 fi
-
 echo "Please enter your password, if any to start ッ"
 echo -en '\n'
-#SPACE                                
+# Main:                                
 sudo pkg update && sudo pkg update -f && sudo pkg upgrade && sudo pkg upgrade -F && sudo pkg upgrade -f && sudo pkg upgrade -n && sudo pkg autoremove && sudo pkg autoremove -n && sudo pkg clean && sudo pkg clean -a sudo pkg clean -n
-#SPACE 
-#Put a hash in front of "clear" to stop clearing the output 
+#Comment 'clear' below to stop clearing the output.
 clear
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
