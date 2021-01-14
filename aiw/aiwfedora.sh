@@ -33,9 +33,9 @@ echo "Please enter your password, if any to start ッ"
 echo -en '\n'
 echo -en '\n'
 # Main:                                  
-sudo dnf update --fix-missing && sudo dnf upgrade -y && sudo dnf dist-upgrade -y && sudo dnf autoremove -y && sudo dnf install -f && sudo rpm -Va
+sudo dnf update --fix-missing || error '\e[31mUnable to update, please check your internet connection...\e[0m'&& sudo dnf upgrade -y && sudo dnf dist-upgrade -y && sudo dnf autoremove -y && sudo dnf install -f && sudo rpm -Va
 echo -en '\n'
-#Put a hash in front of "clear" to stop clearing the output 
+#Comment 'clear' below to stop clearing the output.
 clear
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
