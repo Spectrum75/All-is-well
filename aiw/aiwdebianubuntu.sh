@@ -38,7 +38,7 @@ echo -en '\n'
 sudo apt update --fix-missing || error '\e[31mUnable to update, please check your internet connection...\e[0m' && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y
 echo -en && sudo apt install -f && sudo dpkg --configure -a
 #Comment 'clear' below to stop clearing the output.
-#clear
+clear
 echo -en '\n'
 echo -en '\n'
 echo -en '\n'
