@@ -25,7 +25,9 @@ latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD 
 if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
 # Update
 echo "Out of date, updating now..."
-git reset -- hard https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
+git clean -fd
+git reset --hard
+git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
 else
   echo -e "\e[32mUp to date! \e[0m"
 fi
