@@ -18,15 +18,18 @@ function error {
   echo -e "\\e[91m$1\\e[39m"
   exit 1
 }
-#Update Check:
+#Update Check.
 echo -e "\e[31mChecking for updates...\e[0m"
 cd $HOME/All-is-well
 localhash="$(git rev-parse HEAD)"
 latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD | awk '{print $1}')"
 if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
+# Update (if out of date)
 echo "Out of date, updating now..."
-rm $HOME/All-is-well
+git clean -fd
+git reset --hard
 git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
+# Update (if up to date)
 else
   echo -e "\e[32mUp to date! \e[0m"
 fi
