@@ -24,8 +24,7 @@ localhash="$(git rev-parse HEAD)"
 latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD | awk '{print $1}')"
 if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
 echo "Out of date, updating now..."
-sudo rm -r $HOME/All-is-well
-git clone https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
+git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
 else
   echo -e "\e[32mUp to date! \e[0m"
 fi
