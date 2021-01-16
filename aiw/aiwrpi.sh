@@ -50,7 +50,7 @@ break
 else
 ((count=$count+1))
 printf "\nWrong key pressed for $count times\n"
-echo "All is well now press x to exit ◠‿◠"
+echo "All is well now press x to exit (•‿•)"
 fi
 done
 
