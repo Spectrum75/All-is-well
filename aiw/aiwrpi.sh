@@ -23,6 +23,7 @@ cd $HOME/All-is-well
 localhash="$(git rev-parse HEAD)"
 latesthash="$(git ls-remote https://github.com/spectrumgamer75/All-is-well HEAD | awk '{print $1}')"
 if [ "$localhash" != "$latesthash" ] && [ ! -z "$latesthash" ] && [ ! -z "$localhash" ];then
+# Update
 echo "Out of date, updating now..."
 git reset -- hard https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
 else
