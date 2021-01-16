@@ -40,7 +40,7 @@ echo -en && sudo apt install -f && sudo dpkg --configure -a
 echo -en '\n'
 echo -en '\n'
 echo -en '\n'
-echo "All is well now (if everything went correctly) press x to exit 〷◠‿◠〷"
+echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
 while : ; do
 read -n 1 k <&1
