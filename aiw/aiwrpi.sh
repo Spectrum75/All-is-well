@@ -40,6 +40,7 @@ clear
 echo -en '\n'
 echo -en '\n'
 echo -en '\n'
+# Ending:
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
 while : ; do
