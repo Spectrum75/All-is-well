@@ -30,6 +30,7 @@ git reset --hard
 git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
 cd $HOME/All-is-well/aiw
 chmod +x aiwrpi.sh
+clear
 # Update (if up to date)
 else
   echo -e "\e[32mUp to date! \e[0m"
