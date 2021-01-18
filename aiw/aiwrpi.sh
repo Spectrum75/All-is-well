@@ -28,6 +28,7 @@ echo "Out of date, updating now..."
 git clean -fd
 git reset --hard
 git pull https://github.com/spectrumgamer75/All-is-well HEAD || error '\e[31mUnable to update, please check your internet connection...\e[0m'
+cd $HOME/All-is-well
 chmod +x aiwrpi.sh
 # Update (if up to date)
 else
