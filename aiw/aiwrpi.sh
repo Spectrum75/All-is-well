@@ -34,7 +34,7 @@ chmod +x aiwrpi.sh
 else
   echo -e "\e[32mUp to date! \e[0m"
 fi
-
+# Prompt:
 echo "Please enter your password, if any to start ッ"
 echo -en '\n'
 # Main:
