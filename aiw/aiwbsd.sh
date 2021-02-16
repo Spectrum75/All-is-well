@@ -41,7 +41,7 @@ echo -en '\n'
 # Main:                                
 sudo pkg update && sudo pkg update -f && sudo pkg upgrade && sudo pkg upgrade -F && sudo pkg upgrade -f && sudo pkg upgrade -n && sudo pkg autoremove && sudo pkg autoremove -n && sudo pkg clean && sudo pkg clean -a sudo pkg clean -n
 #Comment 'clear' below to stop clearing the output.
-clear
+clear -x
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
 while : ; do

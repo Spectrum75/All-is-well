@@ -41,9 +41,7 @@ echo "Please enter your password, if any to start ッ"
 echo -en '\n'
 # Main:                                           
 sudo pacman -Syy && sudo pacman -Su && pacman -Syu && pacman -Qdtq | pacman -Rs - && paccache -r && pacman -Sc && pacman -Scc
-echo -en '\n'
-#Comment 'clear' below to stop clearing the output.
-clear
+clear -x
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
 while : ; do
