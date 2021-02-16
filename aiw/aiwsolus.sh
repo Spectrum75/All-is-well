@@ -42,10 +42,7 @@ echo -en '\n'
 # Main:
 sudo eopkg up || error '\e[31mUnable to update, please check your internet connection...\e[0m' && sudo eopkg check | grep Broken | awk '{print $4}' | xargs sudo eopkg it --reinstall && sudo eopkg upgrade && sudo eopkg ur && eopkg check
 #Comment 'clear' below to stop clearing the output.
-clear
-echo -en '\n'
-echo -en '\n'
-echo -en '\n'
+clear -x
 echo "All is well now (if everything went correctly) press x to exit 〷◠‿◠〷"
 count=0
 while : ; do
