@@ -20,8 +20,8 @@ function error {
 echo "Please enter your password, if any to start ッ"
 echo -en '\n'
 # Insert your package manager commands here, don't forget to convert .txt to .sh when done :)                                                       
-#Comment 'clear' below to stop clearing the output.
-clear
+#clear -x simply scrolls up untill the output of the next command starts at the top of the terminal window/display.
+clear -x
 echo "All is well now (if everything went correctly) press x to exit ◠‿◠"
 count=0
 while : ; do
