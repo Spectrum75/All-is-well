@@ -28,9 +28,9 @@ Wget
 I am not responsible for any damage that may occur to your system by using these scripts, if you have any doubts about using them please have a look inside the code.
 
 # Credits:
-Thanks to GraphicLoads for the [icon](https://www.iconarchive.com/show/100-flat-2-icons-by-graphicloads/arrow-download-icon.html)
-The Ascii art was made with the Ascii art generator at http://www.patorjk.com/software/taag/
-Also I express my gratitude to [Botspot](https://github.com/botspot) and [RPI Coder (AKA Techcoder20)](https://github.com/techcoder20) for helping me.
+Thanks to GraphicLoads for the [icon](https://www.iconarchive.com/show/100-flat-2-icons-by-graphicloads/arrow-download-icon.html).
+The Ascii art was made with the Ascii art generator at http://www.patorjk.com/software/taag/.
+Also I express my gratitude to [Botspot](https://github.com/botspot), [RPI Coder (AKA Techcoder20)](https://github.com/techcoder20) and all the [contributors](https://github.com/spectrumgamer75/All-is-well/graphs/contributors) for for helping me
 
 # Help And More:
 For any help/issues or ideas/feature requests let me know in issues.
