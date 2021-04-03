@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# This is the install script for the "All Is Well" script, it will automatically configure many settings
 echo 'Choose your option below, to continue:
 1 Debian/Ubuntu
 2 Arch Linux
@@ -28,9 +27,9 @@ case $number in
         Name=All Is Well
         GenericName=Update Helper and Fixer
         Comment=ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
-        Exec=$HOME/All-is-well/aiw/aiwdebianubuntu.sh
+        Exec=$DIRECTORY/etc/terminal-run $HOME/All-is-well/aiw/aiwdebianubuntu.sh 'All Is Well'
         Icon=$HOME/All-is-well/aiw/icon-64.png
-        Terminal=true
+        Terminal=false
         StartupNotify=true
         Type=Application
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
@@ -51,9 +50,9 @@ case $number in
         Name=All Is Well
         GenericName=Update Helper and Fixer
         Comment=ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
-        Exec=$HOME/All-is-well/aiw/aiwarchlinux.sh
+        Exec=$DIRECTORY/etc/terminal-run $HOME/All-is-well/aiw/aiwarchlinux.sh 'All Is Well'
         Icon=$HOME/All-is-well/aiw/icon-64.png
-        Terminal=true
+        Terminal=false
         StartupNotify=true
         Type=Application
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
@@ -74,9 +73,9 @@ case $number in
         Name=All Is Well
         GenericName=Update Helper and Fixer
         Comment=ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
-        Exec=$HOME/All-is-well/aiw/aiwfedora.sh
+        Exec=$DIRECTORY/etc/terminal-run $HOME/All-is-well/aiw/aiwfedora.sh 'All Is Well'
         Icon=$HOME/All-is-well/aiw/icon-64.png
-        Terminal=true
+        Terminal=false
         StartupNotify=true
         Type=Application
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
@@ -97,9 +96,9 @@ case $number in
         Name=All Is Well
         GenericName=Update Helper and Fixer
         Comment=ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
-        Exec=$HOME/All-is-well/aiw/aiwsolus.sh
+        Exec=$DIRECTORY/etc/terminal-run $HOME/All-is-well/aiw/aiwsolus.sh 'All Is Well'
         Icon=$HOME/All-is-well/aiw/icon-64.png
-        Terminal=true
+        Terminal=false
         StartupNotify=true
         Type=Application
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
@@ -120,9 +119,9 @@ case $number in
         Name=All Is Well
         GenericName=Update Helper and Fixer
         Comment=ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux, BSD, And More. It will also fix any broken packages and dependencies, if possible. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
-        Exec=$HOME/All-is-well/aiw/aiwbsd.sh
+        Exec=$DIRECTORY/etc/terminal-run $HOME/All-is-well/aiw/aiwbsd.sh 'All Is Well'
         Icon=$HOME/All-is-well/aiw/icon-64.png
-        Terminal=true
+        Terminal=false
         StartupNotify=true
         Type=Application
         Categories=Utility;" > ~/.local/share/applications/aiw.desktop || error "Failed to create menu entry!"
