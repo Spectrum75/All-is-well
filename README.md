@@ -11,7 +11,7 @@ Feel free to edit the script according to your needs. Please note that the proce
 # Installation:
 Run the below command in a terminal to get the script up and running:
 
-`wget https://raw.githubusercontent.com/spectrumgamer75/All-is-well/master/install.sh && chmod +x install.sh && clear && ./install.sh`
+`wget https://raw.githubusercontent.com/spectrum75/All-is-well/master/install.sh && chmod +x install.sh && clear && ./install.sh`
 
 You can either run the script from the menu shortcut, or directly from the terminal by using the `aiw` command. By default all output is cleared, to stop this edit the script (more info inside)
 
