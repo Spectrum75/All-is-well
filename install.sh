@@ -1,4 +1,38 @@
 #!/usr/bin/env bash
+echo ""
+if command -v apt >/dev/null 2>&1; then
+        echo "apt detected."
+        echo "recommendation: Debian/Ubuntu"
+else
+    sleep 0
+fi
+
+if command -v pacman >/dev/null 2>&1; then
+        echo "pacman detected."
+        echo "recommendation: Arch Linux"
+else
+    sleep 0
+fi
+
+if command -v dnf >/dev/null 2>&1; then
+        echo "DNF detected."
+        echo "recommendation: Fedora"
+else
+    sleep 0
+fi
+if command -v pkg >/dev/null 2>&1; then
+        echo "pkg detected."
+        echo "recommendation: BSD"
+else
+    sleep 0
+fi
+if command -v eopkg >/dev/null 2>&1; then
+        echo "eopkg detected."
+        echo "recommendation: Solus"
+else
+    sleep 0
+fi
+echo ""
 echo 'Choose your option below, to continue:
 1 Debian/Ubuntu
 2 Arch Linux
